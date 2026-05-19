@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+dist/
+build/
+*.egg-info/
+# Blender
+*.blend1
+*.blend2
+/renders/
+*.exr
+# Live data (not committed)
+data/live_*.json
+data/cache/
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# CI
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
