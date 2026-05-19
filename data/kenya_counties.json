@@ -1,0 +1,485 @@
+{
+  "metadata": {
+    "source": "DEMO \u2014 synthetic metrics for visualization illustration only",
+    "generated": "2026-05",
+    "counties": 47,
+    "metrics": {
+      "water_stress": "0-10 (10=critical)",
+      "drought_index": "0-1 (1=severe)",
+      "population_m": "millions",
+      "area_km2": "sq km"
+    }
+  },
+  "counties": [
+    {
+      "id": 1,
+      "name": "Mombasa",
+      "lat": -4.05,
+      "lon": 39.67,
+      "water_stress": 7.2,
+      "drought_index": 0.45,
+      "population_m": 1.21,
+      "area_km2": 229
+    },
+    {
+      "id": 2,
+      "name": "Kwale",
+      "lat": -4.18,
+      "lon": 39.45,
+      "water_stress": 6.8,
+      "drought_index": 0.52,
+      "population_m": 0.87,
+      "area_km2": 8270
+    },
+    {
+      "id": 3,
+      "name": "Kilifi",
+      "lat": -3.63,
+      "lon": 39.85,
+      "water_stress": 6.5,
+      "drought_index": 0.48,
+      "population_m": 1.45,
+      "area_km2": 12610
+    },
+    {
+      "id": 4,
+      "name": "Tana River",
+      "lat": -1.8,
+      "lon": 40.03,
+      "water_stress": 7.8,
+      "drought_index": 0.67,
+      "population_m": 0.31,
+      "area_km2": 35375
+    },
+    {
+      "id": 5,
+      "name": "Lamu",
+      "lat": -2.27,
+      "lon": 40.9,
+      "water_stress": 5.9,
+      "drought_index": 0.41,
+      "population_m": 0.14,
+      "area_km2": 6497
+    },
+    {
+      "id": 6,
+      "name": "Taita-Taveta",
+      "lat": -3.4,
+      "lon": 38.47,
+      "water_stress": 5.4,
+      "drought_index": 0.38,
+      "population_m": 0.34,
+      "area_km2": 17084
+    },
+    {
+      "id": 7,
+      "name": "Garissa",
+      "lat": -0.45,
+      "lon": 39.65,
+      "water_stress": 9.1,
+      "drought_index": 0.81,
+      "population_m": 0.84,
+      "area_km2": 44175
+    },
+    {
+      "id": 8,
+      "name": "Wajir",
+      "lat": 1.75,
+      "lon": 40.06,
+      "water_stress": 9.4,
+      "drought_index": 0.87,
+      "population_m": 0.78,
+      "area_km2": 56686
+    },
+    {
+      "id": 9,
+      "name": "Mandera",
+      "lat": 3.94,
+      "lon": 41.87,
+      "water_stress": 9.7,
+      "drought_index": 0.92,
+      "population_m": 1.18,
+      "area_km2": 25797
+    },
+    {
+      "id": 10,
+      "name": "Marsabit",
+      "lat": 2.33,
+      "lon": 37.99,
+      "water_stress": 8.9,
+      "drought_index": 0.79,
+      "population_m": 0.46,
+      "area_km2": 70961
+    },
+    {
+      "id": 11,
+      "name": "Isiolo",
+      "lat": 0.35,
+      "lon": 37.58,
+      "water_stress": 8.2,
+      "drought_index": 0.71,
+      "population_m": 0.27,
+      "area_km2": 25336
+    },
+    {
+      "id": 12,
+      "name": "Meru",
+      "lat": 0.05,
+      "lon": 37.65,
+      "water_stress": 4.1,
+      "drought_index": 0.22,
+      "population_m": 1.55,
+      "area_km2": 6936
+    },
+    {
+      "id": 13,
+      "name": "Tharaka-Nithi",
+      "lat": -0.3,
+      "lon": 37.93,
+      "water_stress": 4.8,
+      "drought_index": 0.28,
+      "population_m": 0.39,
+      "area_km2": 2609
+    },
+    {
+      "id": 14,
+      "name": "Embu",
+      "lat": -0.53,
+      "lon": 37.45,
+      "water_stress": 3.9,
+      "drought_index": 0.2,
+      "population_m": 0.61,
+      "area_km2": 2818
+    },
+    {
+      "id": 15,
+      "name": "Kitui",
+      "lat": -1.37,
+      "lon": 38.01,
+      "water_stress": 7.1,
+      "drought_index": 0.58,
+      "population_m": 1.14,
+      "area_km2": 24385
+    },
+    {
+      "id": 16,
+      "name": "Machakos",
+      "lat": -1.52,
+      "lon": 37.27,
+      "water_stress": 5.8,
+      "drought_index": 0.42,
+      "population_m": 1.42,
+      "area_km2": 5953
+    },
+    {
+      "id": 17,
+      "name": "Makueni",
+      "lat": -2.0,
+      "lon": 37.62,
+      "water_stress": 6.9,
+      "drought_index": 0.55,
+      "population_m": 0.99,
+      "area_km2": 8008
+    },
+    {
+      "id": 18,
+      "name": "Nyandarua",
+      "lat": -0.18,
+      "lon": 36.52,
+      "water_stress": 2.8,
+      "drought_index": 0.1,
+      "population_m": 0.64,
+      "area_km2": 3107
+    },
+    {
+      "id": 19,
+      "name": "Nyeri",
+      "lat": -0.42,
+      "lon": 36.95,
+      "water_stress": 3.1,
+      "drought_index": 0.12,
+      "population_m": 0.78,
+      "area_km2": 3337
+    },
+    {
+      "id": 20,
+      "name": "Kirinyaga",
+      "lat": -0.65,
+      "lon": 37.28,
+      "water_stress": 2.9,
+      "drought_index": 0.11,
+      "population_m": 0.61,
+      "area_km2": 1478
+    },
+    {
+      "id": 21,
+      "name": "Muranga",
+      "lat": -0.78,
+      "lon": 37.15,
+      "water_stress": 3.2,
+      "drought_index": 0.13,
+      "population_m": 1.06,
+      "area_km2": 2558
+    },
+    {
+      "id": 22,
+      "name": "Kiambu",
+      "lat": -1.03,
+      "lon": 36.83,
+      "water_stress": 4.5,
+      "drought_index": 0.25,
+      "population_m": 2.42,
+      "area_km2": 2543
+    },
+    {
+      "id": 23,
+      "name": "Turkana",
+      "lat": 3.12,
+      "lon": 35.6,
+      "water_stress": 9.8,
+      "drought_index": 0.94,
+      "population_m": 1.1,
+      "area_km2": 68680
+    },
+    {
+      "id": 24,
+      "name": "West Pokot",
+      "lat": 1.62,
+      "lon": 35.12,
+      "water_stress": 7.5,
+      "drought_index": 0.62,
+      "population_m": 0.62,
+      "area_km2": 9169
+    },
+    {
+      "id": 25,
+      "name": "Samburu",
+      "lat": 1.07,
+      "lon": 36.56,
+      "water_stress": 8.7,
+      "drought_index": 0.76,
+      "population_m": 0.32,
+      "area_km2": 20182
+    },
+    {
+      "id": 26,
+      "name": "Trans-Nzoia",
+      "lat": 1.05,
+      "lon": 34.98,
+      "water_stress": 3.4,
+      "drought_index": 0.15,
+      "population_m": 1.01,
+      "area_km2": 2497
+    },
+    {
+      "id": 27,
+      "name": "Uasin Gishu",
+      "lat": 0.52,
+      "lon": 35.27,
+      "water_stress": 3.0,
+      "drought_index": 0.12,
+      "population_m": 1.16,
+      "area_km2": 3345
+    },
+    {
+      "id": 28,
+      "name": "Elgeyo-Marakwet",
+      "lat": 0.78,
+      "lon": 35.55,
+      "water_stress": 4.2,
+      "drought_index": 0.23,
+      "population_m": 0.45,
+      "area_km2": 3030
+    },
+    {
+      "id": 29,
+      "name": "Nandi",
+      "lat": 0.18,
+      "lon": 35.18,
+      "water_stress": 3.3,
+      "drought_index": 0.14,
+      "population_m": 0.89,
+      "area_km2": 2884
+    },
+    {
+      "id": 30,
+      "name": "Baringo",
+      "lat": 0.47,
+      "lon": 36.07,
+      "water_stress": 6.2,
+      "drought_index": 0.49,
+      "population_m": 0.67,
+      "area_km2": 11015
+    },
+    {
+      "id": 31,
+      "name": "Laikipia",
+      "lat": 0.18,
+      "lon": 36.78,
+      "water_stress": 5.5,
+      "drought_index": 0.39,
+      "population_m": 0.52,
+      "area_km2": 9462
+    },
+    {
+      "id": 32,
+      "name": "Nakuru",
+      "lat": -0.35,
+      "lon": 36.07,
+      "water_stress": 4.0,
+      "drought_index": 0.21,
+      "population_m": 2.16,
+      "area_km2": 7509
+    },
+    {
+      "id": 33,
+      "name": "Narok",
+      "lat": -1.08,
+      "lon": 35.87,
+      "water_stress": 5.1,
+      "drought_index": 0.35,
+      "population_m": 1.16,
+      "area_km2": 17921
+    },
+    {
+      "id": 34,
+      "name": "Kajiado",
+      "lat": -1.85,
+      "lon": 36.78,
+      "water_stress": 6.0,
+      "drought_index": 0.46,
+      "population_m": 1.12,
+      "area_km2": 21900
+    },
+    {
+      "id": 35,
+      "name": "Kericho",
+      "lat": -0.37,
+      "lon": 35.28,
+      "water_stress": 2.7,
+      "drought_index": 0.09,
+      "population_m": 0.94,
+      "area_km2": 2479
+    },
+    {
+      "id": 36,
+      "name": "Bomet",
+      "lat": -0.78,
+      "lon": 35.35,
+      "water_stress": 2.9,
+      "drought_index": 0.11,
+      "population_m": 0.88,
+      "area_km2": 1997
+    },
+    {
+      "id": 37,
+      "name": "Kakamega",
+      "lat": 0.28,
+      "lon": 34.75,
+      "water_stress": 3.6,
+      "drought_index": 0.17,
+      "population_m": 1.87,
+      "area_km2": 3051
+    },
+    {
+      "id": 38,
+      "name": "Vihiga",
+      "lat": 0.07,
+      "lon": 34.72,
+      "water_stress": 3.5,
+      "drought_index": 0.16,
+      "population_m": 0.6,
+      "area_km2": 531
+    },
+    {
+      "id": 39,
+      "name": "Bungoma",
+      "lat": 0.57,
+      "lon": 34.57,
+      "water_stress": 3.8,
+      "drought_index": 0.18,
+      "population_m": 1.67,
+      "area_km2": 3032
+    },
+    {
+      "id": 40,
+      "name": "Busia",
+      "lat": 0.45,
+      "lon": 34.12,
+      "water_stress": 4.3,
+      "drought_index": 0.24,
+      "population_m": 0.89,
+      "area_km2": 1695
+    },
+    {
+      "id": 41,
+      "name": "Siaya",
+      "lat": -0.07,
+      "lon": 34.28,
+      "water_stress": 4.7,
+      "drought_index": 0.29,
+      "population_m": 0.99,
+      "area_km2": 2530
+    },
+    {
+      "id": 42,
+      "name": "Kisumu",
+      "lat": -0.1,
+      "lon": 34.75,
+      "water_stress": 5.0,
+      "drought_index": 0.33,
+      "population_m": 1.16,
+      "area_km2": 2085
+    },
+    {
+      "id": 43,
+      "name": "Homa Bay",
+      "lat": -0.52,
+      "lon": 34.45,
+      "water_stress": 5.3,
+      "drought_index": 0.37,
+      "population_m": 1.13,
+      "area_km2": 3154
+    },
+    {
+      "id": 44,
+      "name": "Migori",
+      "lat": -1.07,
+      "lon": 34.47,
+      "water_stress": 5.6,
+      "drought_index": 0.4,
+      "population_m": 1.16,
+      "area_km2": 2586
+    },
+    {
+      "id": 45,
+      "name": "Kisii",
+      "lat": -0.68,
+      "lon": 34.77,
+      "water_stress": 4.4,
+      "drought_index": 0.26,
+      "population_m": 1.27,
+      "area_km2": 1318
+    },
+    {
+      "id": 46,
+      "name": "Nyamira",
+      "lat": -0.57,
+      "lon": 35.0,
+      "water_stress": 4.1,
+      "drought_index": 0.22,
+      "population_m": 0.6,
+      "area_km2": 893
+    },
+    {
+      "id": 47,
+      "name": "Nairobi",
+      "lat": -1.28,
+      "lon": 36.82,
+      "water_stress": 6.8,
+      "drought_index": 0.44,
+      "population_m": 4.4,
+      "area_km2": 696
+    }
+  ]
+}
