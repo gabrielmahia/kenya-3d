@@ -19,7 +19,14 @@ dev = ["pytest>=8", "ruff>=0.4", "pre-commit>=3"]
 [tool.ruff]
 line-length = 100
 target-version = "py311"
-select = ["E", "F", "I", "N", "W", "UP"]
+exclude = [
+    "blender_scripts",
+    ".git",
+    "__pycache__",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP"]
 ignore = ["E501"]
 
 [tool.pytest.ini_options]
