@@ -5,7 +5,9 @@ kenya-3d — Kenya county reference data from open sources.
 REAL data mode — Kenya National Bureau of Statistics / HDX.
 """
 from __future__ import annotations
-import json, urllib.request
+
+import json
+import urllib.request
 from pathlib import Path
 
 KNBS_URL    = "https://raw.githubusercontent.com/mikelmaron/kenyadata/master/data/counties.geojson"

@@ -6,7 +6,11 @@ REAL data mode: requires wapimaji-mcp running.
 See: https://github.com/gabrielmahia/wapimaji-mcp
 """
 from __future__ import annotations
-import json, urllib.request, urllib.error, urllib.parse
+
+import json
+import urllib.error
+import urllib.parse
+import urllib.request
 from pathlib import Path
 from typing import Any
 

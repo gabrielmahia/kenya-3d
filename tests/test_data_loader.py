@@ -1,11 +1,19 @@
 """Unit tests: data loading + coordinate utilities."""
-import json, sys, tempfile, pytest
+import json
+import sys
+import tempfile
 from pathlib import Path
+
+import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from blender_scripts.utils.data_loader import (
-    load_county_data, load_drought_grid,
-    normalise, stress_colour, geo_to_blender, PALETTE,
+    PALETTE,
+    geo_to_blender,
+    load_county_data,
+    load_drought_grid,
+    normalise,
+    stress_colour,
 )
 
 SAMPLE_C = {"counties": [
